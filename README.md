@@ -1,7 +1,7 @@
 Caesar_Keypad
 =============
 
-Java code that simulates a simple encrypted keypad, using the Caesar cipher.
+Java code that simulates a simple encrypted telephone keypad, using the Caesar cipher.
 
 Input: your message and the desired encryption key (an integer)
 
