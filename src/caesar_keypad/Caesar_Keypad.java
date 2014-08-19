@@ -77,13 +77,13 @@ public class Caesar_Keypad {
     }
     
     public static int check_keypad(int x, int q){
-        if((x+q)>9){
-            return (x+q)-8;
+        if((x+q)%8>9){
+            return (x+q)%8-8;
         }
-        if((x+q)<2){
-            return (x+q)+8;
+        if((x+q)%8<2){
+            return (x+q)%8+8;
         }
-        return (x+q);
+        return (x+q)%8;
     }
     
     public static int numsize(int q){
