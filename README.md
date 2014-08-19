@@ -5,7 +5,7 @@ Java code that simulates a simple encrypted telephone keypad, using the Caesar c
 
 Input: your message and the desired encryption key (an integer)
 
-Output: list of encrypted telephone keypad numbers
+Output: list of encrypted telephone keypad numbers and encrypted version of your message
 
 =============
 
